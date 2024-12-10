@@ -82,6 +82,9 @@ It takes in the miner object, the block to mine, the blockchain, and a shared At
   Execution:
 Initializes the blockchain and miners, and starts the mining process in multiple threads.
 Outputs the results once the mining process is complete.
+## Output ScreenShot
+![Blockchain Screenshot](https://github.com/matoussi-roua/Blockchain_Model_Implementation_with_Dynamic_Mining_Java/blob/main/src/main/resources/Capture%20d'%C3%A9cran%202024-12-10%20162522.png)
+
 ## Contribution
 Contributions to this project are welcome. To contribute, follow these steps:
 
