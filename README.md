@@ -104,7 +104,7 @@ Special thanks to anyone who has provided feedback or suggestions for improving 
 1. **Overview**: Explains the project and its core functionality.
 2. **Features**: Lists the main features of the project, including multi-threaded mining and blockchain validation.
 3. **How the Mining Process Works**: Describes the mining process in detail, including difficulty adjustment and hash power influence.
-4. **Practical Instructions**: Explains how to clone, build, and run the project, including sample output.
+4. **Practical Instructions**: Explains how to clone.
 5. **Code Explanation**: Provides an overview of the core classes and methods in the project.
 6. **Contribution**: Information on how to contribute to the project.
 7. **License**: Mentions the MIT License.
