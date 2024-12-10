@@ -1,9 +1,7 @@
 package org.blockchain.models;
 
-import java.nio.charset.StandardCharsets;
-import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-import java.util.ArrayList;
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Objects;
 
@@ -13,8 +11,8 @@ public class Block {
     private Boolean isAddedToChain;
     private String hash;
     private String previousHash;
-    private String nonce;
-    private long timestamp;
+    private long nonce;
+    private LocalDateTime timestamp;
     private int difficulty;
     private List<Transaction> transactions;
     private String txRoot;
@@ -25,11 +23,8 @@ public class Block {
         this.isAddedToChain = false;
         this.previousHash = previousHash;
         this.difficulty = difficulty;
-        this.nonce = "0";
-        this.timestamp = System.currentTimeMillis();
+        this.nonce = 0;
         this.transactions = transactions;
-       // this.txRoot = merkelTree();
-       // this.hash = calculateHash(this.version + this.previousHash + this.nonce + this.timestamp + this.txRoot);
     }
 
     public Long getBlockId() {
@@ -72,19 +67,19 @@ public class Block {
         this.previousHash = previousHash;
     }
 
-    public String getNonce() {
+    public long getNonce() {
         return nonce;
     }
 
-    public void setNonce(String nonce) {
+    public void setNonce(long nonce) {
         this.nonce = nonce;
     }
 
-    public long getTimestamp() {
+    public LocalDateTime getTimestamp() {
         return timestamp;
     }
 
-    public void setTimestamp(long timestamp) {
+    public void setTimestamp(LocalDateTime timestamp) {
         this.timestamp = timestamp;
     }
 

@@ -9,6 +9,10 @@ import java.util.List;
 
 public interface BlockService {
 
+    String calculateHash(String dataToHash);
+
+    String merkelTree(List<Transaction> transactions) throws NoSuchAlgorithmException;
+
     Block createBlock(Long blockId, String version, int difficulty, String previousHash, List<Transaction> transactions) throws NoSuchAlgorithmException;
 
 }
