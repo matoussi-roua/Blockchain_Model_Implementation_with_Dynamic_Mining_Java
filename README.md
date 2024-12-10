@@ -90,7 +90,8 @@ Create a new branch (git checkout -b feature-branch).
 Make your changes and commit (git commit -am 'Add new feature').
 
 # License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/matoussi-roua/Blockchain_Model_Implementation_with_Dynamic_Mining_Java/blob/main/LICENSE)
+ file for details.
 
 # Acknowledgements
 Thanks to the open-source community for their contributions to Java and blockchain technologies.
